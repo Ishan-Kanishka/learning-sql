@@ -1,9 +1,9 @@
 CREATE TABLE transactions (
-    transactions_id INT PRIMARY KEY AUTO_INCREMENT,
+    transaction_id INT PRIMARY KEY AUTO_INCREMENT ,
     amount DECIMAL (5,2),
     customer_id INT,
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
-);
+)AUTO_INCREMENT = 1000;
 
 SELECT * FROM transactions;
 
