@@ -1,4 +1,4 @@
-# LEFT JOINS    
+# LEFT JOIN    
 
 SELECT *
 # SELECT transaction_id, amount, first_name, last_name
